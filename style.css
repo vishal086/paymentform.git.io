@@ -1,0 +1,35 @@
+.A{
+    text-align: center;
+}
+.main{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: #8eff3e;
+}
+input[type="date"],
+input[type="number"],
+input[type="email"],
+input[type="my text"],
+input[type="text"]{
+    width: 99%;
+}
+input[type=submit]{
+    border-radius: 30px;
+    background-color: black;
+    padding:10px;
+    margin: 10px;
+    color: white;
+}
+.in{
+    text-align: center;
+}
+input[type=submit]:hover{
+    background-color: white;
+    cursor: pointer;
+    color: blueviolet;
+}
